@@ -45,7 +45,6 @@ const books = [
     description: 'Neste ensaio inspirado por uma famosa palestra do TED, Chimamanda Ngozi Adichie explora como histórias únicas podem distorcer nossa visão do mundo. A autora reflete sobre sua infância na Nigéria e como foi impactada pelas narrativas limitadas sobre África difundidas globalmente. Adichie argumenta que histórias únicas criam estereótipos, desumanizam culturas e limitam o potencial de empatia. Ela defende a diversidade de vozes e perspectivas como uma forma de combater preconceitos e promover compreensão intercultural. Este texto é um alerta poderoso contra os perigos da generalização.',
     trailerUrl: '/videos/trailerPHU.mp4', // Trailer exemplo
   },
-  // Adicione outros livros aqui
 ];
 
 export default function BookDetail() {

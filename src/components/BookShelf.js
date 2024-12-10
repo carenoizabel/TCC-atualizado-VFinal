@@ -1,4 +1,3 @@
-// src/components/BookShelf.js
 import Link from 'next/link';
 
 const books = [

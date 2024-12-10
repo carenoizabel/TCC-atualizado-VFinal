@@ -1,4 +1,4 @@
-/* src/styles/globals.css */
+
 body {
     margin: 0;
     padding: 0;
@@ -20,8 +20,6 @@ body {
     color: #333;
   }
   
-  /* src/styles/globals.css */
-
 .bookshelf {
     display: flex;
     gap: 20px;

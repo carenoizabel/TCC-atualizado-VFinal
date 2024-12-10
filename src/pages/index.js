@@ -1,4 +1,3 @@
-// src/pages/index.js
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import BookShelf from '@/components/BookShelf';

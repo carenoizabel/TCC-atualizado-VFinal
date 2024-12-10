@@ -1,4 +1,3 @@
-// src/utils/data.js
 const booksData = [
     {
       title: 'Pequeno Manual Antirracista',

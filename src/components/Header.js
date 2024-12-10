@@ -15,14 +15,14 @@ export default function Header() {
   };
 
   const handleAccessVirtual3D = () => {
-    alert("Funcionalidade Virtual 3D em desenvolvimento."); // Simula uma funcionalidade futura
+    alert("Funcionalidade Virtual 3D em desenvolvimento."); 
   };
 
   return (
     <header className="header">
       <div className="logo">
         <img
-          src="/imgs/logo.png" /* Caminho da imagem da logo */
+          src="/imgs/logo.png" 
           alt="Logo do BibliCultuON"
           className="logo-image"
         />

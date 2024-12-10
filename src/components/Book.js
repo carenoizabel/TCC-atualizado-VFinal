@@ -1,4 +1,3 @@
-// src/components/Book.js
 import React from 'react';
 import { useLoader } from '@react-three/fiber';
 import { TextureLoader } from 'three';

@@ -62,6 +62,7 @@ export default function BookShelf() {
           gap: 20px;
           padding: 20px;
           background: #f7f7f7;
+          border-radius: 10px;
         }
 
         .book-card {
@@ -83,39 +84,49 @@ export default function BookShelf() {
         .book-image img {
           width: 100%;
           height: auto;
+          border-bottom: 2px solid #ddd;
         }
 
         .book-details {
           padding: 15px;
           text-align: center;
+          background-color: #fff3e0; /* Amarelo suave */
         }
 
         .book-details h3 {
-          font-size: 1.2rem;
-          color: #333;
+          font-size: 1.3rem;
+          color: #d32f2f; /* Vermelho */
           margin: 10px 0;
+          font-weight: 600;
         }
 
         .book-details .author {
-          font-size: 1rem;
-          color: #777;
+          font-size: 1.1rem;
+          color: #4caf50; /* Verde */
+          margin-bottom: 15px;
         }
 
         .details-button {
-          background: #388e3c;
+          background: #388e3c; /* Verde escuro */
           color: white;
-          padding: 10px 15px;
+          padding: 12px 20px;
           border: none;
-          border-radius: 4px;
+          border-radius: 5px;
           font-size: 1rem;
           font-weight: bold;
           cursor: pointer;
           margin-top: 10px;
-          transition: background-color 0.3s ease;
+          transition: background-color 0.3s ease, transform 0.2s ease;
         }
 
         .details-button:hover {
-          background: #2e7d32;
+          background: #2e7d32; /* Verde mais escuro */
+          transform: scale(1.05);
+        }
+
+        .details-button:focus {
+          outline: none;
+          border: 2px solid #d32f2f; /* Cor vermelha para destacar foco */
         }
 
         @media (max-width: 768px) {
